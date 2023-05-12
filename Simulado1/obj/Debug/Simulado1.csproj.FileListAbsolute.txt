@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\Simulado1\Simulado1\bin\Debug\Simulado1.exe.config
+C:\Users\User\source\repos\Simulado1\Simulado1\bin\Debug\Simulado1.exe
+C:\Users\User\source\repos\Simulado1\Simulado1\bin\Debug\Simulado1.pdb
+C:\Users\User\source\repos\Simulado1\Simulado1\obj\Debug\Simulado1.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Simulado1\Simulado1\obj\Debug\Simulado1.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Simulado1\Simulado1\obj\Debug\Simulado1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Simulado1\Simulado1\obj\Debug\Simulado1.exe
+C:\Users\User\source\repos\Simulado1\Simulado1\obj\Debug\Simulado1.pdb
