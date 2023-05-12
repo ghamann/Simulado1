@@ -54,6 +54,20 @@ namespace Simulado1
                     }
                     Console.WriteLine("\n");
 
+                    acertos = 0;
+                    for (int i = 0; i < palavra.Length; i++)
+                    {
+                        if (palavra[i] == forca[i])
+                        {
+                            acertos++;
+                        }
+                    }
+
+                    if (acertos == palavra.Length)
+                    {
+                        Console.WriteLine("Você venceu!");
+                        break;
+                    }
                 }
                 else 
                 { 
