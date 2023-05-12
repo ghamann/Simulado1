@@ -10,7 +10,36 @@ namespace Simulado1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Simulado 1 ex 3");
+            ////// EXERCICIO 2///////
+
+            Console.WriteLine("Escreva a palavra para verificar se é palindromo");
+            string palavra = Console.ReadLine().ToLower(); // para minusculas
+            palavra = palavra.Replace(" ", ""); // para retirar espaços
+            
+            int nletras = palavra.Length;
+            int teste = 0;
+            for (int i=0; i <nletras; i++) 
+            {
+                if (palavra[i] == palavra[(nletras-1-i)]) 
+                {
+                    teste++;
+                    //Console.WriteLine("É palindromo");
+                }else 
+                {
+                    Console.WriteLine("Não é palindromo");
+                    break;
+                }
+            }
+            if (teste == nletras)
+            {
+                Console.WriteLine("É palindromo");
+            }
+            Console.ReadKey();
+
+
+            ////// EXERCICIO 3/////// - já havia feito semelhante na lista extra (com vetor)
+            
+/*            Console.WriteLine("Simulado 1 ex 3");
             List<int> lista = new List<int>() { 5, 2, 10, 7, 1, 4, 7, 8, 6, 3 };
             int[] numeros = { 5, 2, 10, 7, 1, 4, 7, 8, 6, 3 }; // sem 9
             Console.WriteLine("Sequencia a ser ordenada: ");
@@ -40,7 +69,7 @@ namespace Simulado1
                 Console.Write(" " + numero);
             }
 
-            Console.ReadKey();
+            Console.ReadKey();*/
 
 
         }
